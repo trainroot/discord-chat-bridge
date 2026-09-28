@@ -209,7 +209,8 @@ do not disable chat unless the token is invalid or a Discord global limit applie
 With a Java 21 JDK and `JAVA_HOME` set:
 
 ```sh
-./gradlew build
+# Windows Command Prompt
+gradlew build
 # Windows PowerShell:
 .\gradlew.bat build
 ```
