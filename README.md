@@ -92,12 +92,12 @@ badges so it is not mistaken for the username. Dotted names retain their dot.
 
 | Minecraft input | Discord appearance |
 | --- | --- |
-| `<+AGoodDog MSA> hello` | **+AGoodDog MSA**: hello |
-| `<Bed +AGoodDog MSA> hello` | **Bed +AGoodDog MSA**: hello |
-| `<.AGoodDog [VIP]> hello` | **.AGoodDog [VIP]**: hello |
-| `From AGoodDog: hello` | From **AGoodDog**: hello |
-| `AGoodDog joined the game` | ***AGoodDog*** *joined the game* |
-| `.AGoodDog left the game` | ***.AGoodDog*** *left the game* |
+| `<+Player ASP> hello` | **+Player ASP**: hello |
+| `<Bed +Player ASP> hello` | **Bed +Player ASP**: hello |
+| `<.Player [VIP]> hello` | **.Player [VIP]**: hello |
+| `From Player: hello` | From **Player**: hello |
+| `Player joined the game` | ***Player*** *joined the game* |
+| `.Player left the game` | ***.Player*** *left the game* |
 
 All header content inside recognized `<...>` formats is retained and bolded,
 including prefixes, usernames, and suffixes. Message bodies remain plain text;
