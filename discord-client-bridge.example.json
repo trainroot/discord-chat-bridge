@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "channelId": "",
+  "allowedServers": ["play.example.net:25565"],
+  "serverLabel": "Minecraft",
+  "forwardSystemMessages": true,
+  "formatParsedMessages": true,
+  "updateChannelTopic": true,
+  "announceDisconnects": true,
+  "timestampZone": "system",
+  "topicUpdateSeconds": 300,
+  "maxQueuedMessages": 500,
+  "messageMaxAgeSeconds": 120,
+  "excludeMessageRegex": []
+}
