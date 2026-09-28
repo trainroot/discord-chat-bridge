@@ -1,8 +1,6 @@
 # Discord Client Bridge 1.1.0 — Fabric 1.21.11
 
-This is the complete **1.1.0 source baseline** prepared for GitHub. See
-[GITHUB_SETUP.md](GITHUB_SETUP.md) for upload steps and
-[CONTRIBUTING.md](CONTRIBUTING.md) for the source-file editing guide.
+This is the complete **1.1.0 source baseline** prepared for GitHub.
 Build the installable JAR using the instructions below; this source archive does
 not bundle a prebuilt mod JAR. References below to installing the included JAR
 apply to the original binary release; for this package, use your build output.
