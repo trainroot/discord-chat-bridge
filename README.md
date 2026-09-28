@@ -9,7 +9,7 @@ A client-only, one-way bridge: Minecraft chat → a Discord server text channel.
 The topic shows estimated TPS, the names in your tab list, tab-list ping, a readable
 update time, and whether the Minecraft bridge is connected, paused, or disconnected.
 
-## Upgrade from 1.0.0
+## Upgrading
 
 1. Close Minecraft completely.
 2. Remove the old `discord-client-bridge-1.0.0.jar` from your instance's `mods` folder.
