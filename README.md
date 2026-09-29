@@ -105,12 +105,6 @@ Names follow the supplied word-character convention (letters, digits, underscore
 Unknown formats are forwarded as escaped original text, not discarded. This is
 text parsing, not verified sender identification.
 
-Any received line containing a standalone `/bed` token (case-insensitive, including
-arguments or quoted echoes) is excluded.
-This filter also hides ordinary received discussion containing that exact token.
-Outgoing typed commands are never captured by this bridge.
-No server queries are used to determine which command produced a reply.
-
 `excludeMessageRegex` uses Java regex `find()` on cleaned received text before
 formatting. `forwardSystemMessages` includes non-action-bar messages sent by plugins.
 **Those can include private messages, command replies, coordinates and login prompts.**
