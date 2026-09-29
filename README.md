@@ -84,7 +84,7 @@ Keep one bridge running per channel to avoid duplicate messages and competing to
 
 ## Chat presentation and parsing
 
-The Java `MessageParser.extractMessageInfo` follows the supplied JavaScript patterns:
+The Java `MessageParser.extractMessageInfo` follows the patterns:
 Java chat, ranked/badged chat, dotted Bedrock names, `Bed` prefixes, incoming `From`
 messages, and Java/Bedrock join and leave notices. `Bed` is checked before generic
 badges so it is not mistaken for the username. Dotted names retain their dot.
@@ -106,12 +106,10 @@ Unknown formats are forwarded as escaped original text, not discarded. This is
 text parsing, not verified sender identification.
 
 Any received line containing a standalone `/bed` token (case-insensitive, including
-arguments or quoted echoes) is excluded. `/bedrock` and `/bedtime` are not matched.
+arguments or quoted echoes) is excluded.
 This filter also hides ordinary received discussion containing that exact token.
-It does not intercept, execute, or change `/bed` in Minecraft. Outgoing typed commands
-are never captured by this bridge. Server replies with no `/bed` text cannot be
-reliably identified as replies to that command; add a format-specific exclusion if
-needed. No server queries are used to determine which command produced a reply.
+Outgoing typed commands are never captured by this bridge.
+No server queries are used to determine which command produced a reply.
 
 `excludeMessageRegex` uses Java regex `find()` on cleaned received text before
 formatting. `forwardSystemMessages` includes non-action-bar messages sent by plugins.
