@@ -1,6 +1,5 @@
 # Discord Client Bridge 1.1.0 — Fabric 1.21.11
 
-This is the complete **1.1.0 source baseline** prepared for GitHub.
 Build the installable JAR using the instructions below; this source archive does
 not bundle a prebuilt mod JAR. References below to installing the included JAR
 apply to the original binary release; for this package, use your build output.
@@ -12,7 +11,7 @@ update time, and whether the Minecraft bridge is connected, paused, or disconnec
 ## Upgrading
 
 1. Close Minecraft completely.
-2. Remove the old `discord-client-bridge-1.0.0.jar` from your instance's `mods` folder.
+2. Remove the old `discord-client-bridge-x.x.x.jar` from your instance's `mods` folder.
 3. Install the included `discord-client-bridge-1.1.0.jar`. Do not keep both versions.
 4. Keep your existing JSON configuration and bot-token file, then restart Minecraft.
 
