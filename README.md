@@ -215,8 +215,7 @@ gradlew build
 ```
 
 Output: `build/libs/discord-client-bridge-1.1.0.jar`. Tests use a local mock Discord
-server with a fake token. No actual bot token is required for tests/builds. See
-`VALIDATION.md` for this package's results and build-environment details.
+server with a fake token. No actual bot token is required for tests/builds.
 
 Live verification: join an allowed server; check one public chat message, a badge,
 a Bedrock name, and join/leave notices; check the topic's names/time; test `/dbridge
